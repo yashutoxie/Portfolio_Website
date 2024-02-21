@@ -7,7 +7,7 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-  font-style: normal;
+   font-style: normal;
 
 
 }
@@ -42,16 +42,18 @@ font-size: 2.5rem;
 .firstSection{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 23px 0;
 }
 .firstSection > div{
+    font-size: 3rem;
     width: 30%; 
     color:whitesmoke;
     justify-content: space-around;
     margin: 23px 0; 
 }
 
-.leftSection{
+.leftSection{ 
     background-color:rgb(8, 1, 0); 
     font-size: 2rem;
 
