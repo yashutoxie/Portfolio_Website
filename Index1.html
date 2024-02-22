@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="Favicon1.png" type="png/x-icon">
+    <title>Yash's Portfolio</title>
     <link rel="stylesheet" href="Style1.css">
 </head>
 <body>
     <header>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruda:wght@400..900&display=swap" rel="stylesheet"><nav>
-            <div class="left">Yash's Portfolio</div>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+        <nav>
+            <div class="left">
+                <a class="left" href="#" target="_blank">Yash's Portfolio</a>
+            </div>
+
             <div class="right">
                 <ul>
-                    <li><a href="/"> Home </a></li>
+                    <li><a href="#" target="_blank"> Home </a></li>
                     <li><a href="/"> About</a> </li>
                     <li><a href="/"> Projects</a> </li> 
                     <li><a href="/"> Contact Me</a> </li>
@@ -25,12 +30,18 @@
         <main>
             <section class="firstSection">
                 <div class="leftSection">Hie, My Name is <span class="redColor">Yaswanth </span>
-                    <div> and  I am a </div><div>Web Developer</div>
-                </div> 
+                    <div> and  I am a Passionate</div><div class="redColor"><span id="element">Web Developer</span></div>
+                <div class="buttons">
+                    <button onClick="window.location.href='https://google.com'" class="btn">Download Resume</button>
+                    <button onclick="window.location.href='https://github.com/yashutoxie'" class="btn">Visit Github</button>
+                    <!-- <button class="btn" href="https://github.com/yashutoxie">Visit Github</button> -->
+                </div>
+                </div>
                 <div class = "rightSection"> 
                     <img src="developer-png.png" alt="Web Developer">
                 </div>
             </section>
+            <script src="script1.js"></script>
         </main> 
 </body>
 </html>
